@@ -1,0 +1,7 @@
+.simplecookie li { float: left; width: 49%; white-space: nowrap }
+.simplecookie p  { clear: left }
+.simplecookie .regular-text { width: 95% }
+.simplecookie input:invalid { background-color: #fee }
+@media (max-width: 400px) {
+  .simplecookie li { width: 100% }
+}
